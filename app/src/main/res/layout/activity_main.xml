@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save a new contact"
+        android:text="Contact Auto-Saver"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_marginBottom="24dp"/>
@@ -39,5 +39,20 @@
         android:id="@+id/saveBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SAVE CONTACT"/>
+        android:text="SAVE MANUALLY"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTO-SAVE FEATURE"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENABLE NOTIFICATION ACCESS"/>
+
 </LinearLayout>
